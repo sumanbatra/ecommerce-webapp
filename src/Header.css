@@ -1,0 +1,87 @@
+.header {
+  background-color: #3a567c;
+  display: flex;
+  font-weight: 900;
+  font-size: 20px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  object-fit: contain; /* to keep the aspect ratio same*/
+  width: 100px;
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 20 px;
+  margin-bottom: 20px;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+}
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__searchIcon {
+  background-color: orange;
+  padding: 5px;
+  height: 22px !important;
+}
+.shop {
+  background-color: orange;
+  padding: 5px;
+  height: 22px !important;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+.header__search {
+  display: flex;
+  flex: 1;
+  margin-left: 20px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header__link,
+.link {
+  color: white;
+  text-decoration: none;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .main__icon {
+  font-family: "Open Sans";
+  color: white;
+  text-decoration: none;
+  align-items: center;
+
+  merged main icon part in header logo addded link, shop classes
+} */
